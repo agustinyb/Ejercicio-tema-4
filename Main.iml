@@ -1,0 +1,24 @@
+public class Main {
+    public static void main(String[] args) {
+
+                  //CLASE IDENTIFICADOR = NEW CLASE();
+                  //CREAR UN OBJETO UTILIZANDO EL CONSTRUCTOR
+                    //Vehiculo toyotaPrius = new Vehiculo();
+
+                    //crea un objeto utilizando el constructor
+                                                //con ctrl+p veo parametros(creo el objeto y paso sus parametros)
+        //vehiculo fordMondeo = new Vehiculo("ford","Mondeo",2.0)
+
+                  Smartphone iphone = new Smartphone ("iphone","8","smart",500,18,true,true,"rojo",true,true);
+        System.out.println("El modelo de este iphone es el " + iphone.modelo);
+        System.out.println("El modelo de este iphone tiene Botones= " + iphone.botones);
+
+
+                 SmartWatch appleWatch = new SmartWatch(true,true);
+        System.out.println("El modelo de este appleWatch cuenta con correa= " + appleWatch.correa);
+        System.out.println("El modelo de este appleWatch cuenta con appSalud= " + appleWatch.appSalud);
+    }
+
+}
+                        
+                        
