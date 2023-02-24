@@ -1,0 +1,30 @@
+public class SmartDevice {
+                //ATRUBUTOS
+    String marca;
+    String modelo;
+    String tipo;
+    int peso;
+    int altura;
+    boolean wifi;
+    boolean bluetooth;
+    String color;
+                      //CONSTRUCTOR VACIO
+   public SmartDevice(){
+
+   }
+                                             //CONSTRUCTOR CON PARAMETROS
+    public SmartDevice(String marca, String modelo, String tipo, int peso, int altura, boolean wifi, boolean bluetooth, String color) {
+                                 //PARAMETROS
+  this.marca = marca;
+  this.modelo = modelo;
+  this.tipo = tipo;
+  this.peso = peso;
+  this.altura = altura;
+  this.wifi = wifi;
+  this.bluetooth = bluetooth;
+  this.color = color;
+   }
+
+
+
+}
