@@ -1,0 +1,16 @@
+
+
+public class SmartWatch extends SmartDevice {
+
+    boolean correa;
+    boolean appSalud;
+
+    public SmartWatch() {}
+
+    public SmartWatch(boolean correa, boolean appSalud) {
+        this.correa = correa;
+        this.appSalud = appSalud;
+
+    }
+
+}
