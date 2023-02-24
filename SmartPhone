@@ -1,0 +1,27 @@
+public class Smartphone extends SmartDevice {
+
+    boolean botones;
+    boolean sonido;
+
+    public Smartphone() {}
+
+    public Smartphone(String marca, String modelo, String tipo, int peso, int altura, boolean wifi, boolean bluetooth, String color, boolean botones, boolean sonido) {
+        super(marca, modelo, tipo, peso, altura, wifi, bluetooth, color);
+        this.botones = botones;
+        this.sonido = sonido;
+        this.tipo = tipo;
+        this.peso = peso;
+        this.altura = altura;
+        this.wifi = wifi;
+        this.bluetooth = bluetooth;
+        this.color = color;
+
+
+    }
+
+    public Smartphone(boolean botones, boolean sonido) {
+        this.botones = botones;
+        this.sonido = sonido;
+    }
+
+}
